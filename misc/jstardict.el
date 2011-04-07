@@ -74,7 +74,7 @@
 (defun jsd-output-filter (proc output)
   "Highlight the searched word. The searched word is separated 
 from the explanations by a bar, ie |. String <<< means the end of 
-the explanation. See qs.jstardict.Stardict for details."
+the explanation. See jstardict.Stardict for details."
   (with-current-buffer (process-buffer proc)
     (let ((end (string-match "<<<$" output)))
       (setq buffer-read-only nil)
