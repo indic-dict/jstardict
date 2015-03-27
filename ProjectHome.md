@@ -1,0 +1,1 @@
+A standalone stardict application implemented in Scala.
